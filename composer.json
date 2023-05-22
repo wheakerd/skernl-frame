@@ -1,0 +1,30 @@
+{
+    "name": "wheakerd/flute",
+    "description": "Flute High Performance Framework Based on Swoole",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "flute",
+        "swoole"
+    ],
+    "homepage": "https://www.wheakerd.cn",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wheakerd",
+            "email": "2024419473@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "wheakerd/framework": "^0.0.2",
+        "wheakerd/container": "^0.0.1",
+        "wheakerd/server": "^0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "minimum-stability": "dev"
+}
